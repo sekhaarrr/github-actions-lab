@@ -1,0 +1,14 @@
+name: My_first_action_workflw
+
+on:
+  workflow_dispatch: 
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: some random
+        run: echo " Hey! How are you doing! "
+
+  
