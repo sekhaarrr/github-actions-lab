@@ -20,3 +20,6 @@ jobs:
 
       - name: Print confirmation
         run: echo "This workflow can run manually and automatically on push"
+
+      - name: this command is for running python file
+        run: python hlo.py
