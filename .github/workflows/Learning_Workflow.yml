@@ -1,0 +1,16 @@
+name: learning_wf
+on:
+  workflow_dispatch:
+
+jobs:
+  practice_job:
+    runs-on: ubuntu_latest
+    steps:
+        - name: trying to print...
+          run: echo " Priting a message b"
+        - name: trying to print...
+          run: pwd
+        - name: trying to print...
+          run: ls -a
+          
+      
