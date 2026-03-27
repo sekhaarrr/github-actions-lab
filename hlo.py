@@ -1,1 +1,5 @@
-print(10+20)
+def counter(pws):
+  print(" ela tiskuntuntav")
+
+counter(10)
+
