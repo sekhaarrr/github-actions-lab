@@ -9,6 +9,6 @@ jobs:
 
     steps:
       - name: some random
-        run: echo " Hey! How are you doing! "
+        run: echo " Hey! How are you doing! let's try again "
 
   
